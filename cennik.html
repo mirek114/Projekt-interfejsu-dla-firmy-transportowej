@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KKBus</title>
+	<link type="text/css" rel="stylesheet" href="bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
+	<link type="text/css" rel="stylesheet" href="Site.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<style>
+        .centerfy img{
+        margin: 0 auto;
+        }
+        .centerfy{
+            text-align: center;
+        }
+    </style>
+	
+</head>
+<body style="background: url(s2.jpg) no-repeat center center fixed; 
+			-webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="background: orange">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="color: white" href="glowna.html">Strona Główna</a>
+				<a class="navbar-brand" style="color: white" href="rozkład.html">Rozkład jazdy</a>
+				<a class="navbar-brand" style="color: white" href="cennik.html">Cennik</a>
+				<a class="navbar-brand" style="color: white" href="#">Usługi</a>
+				<a class="navbar-brand" style="color: white" href="#">O firmie</a>
+            </div>
+            <div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a style="color: white" href="#">Rejestracja</a></li>
+					<li><a style="color: white" href="#">Logowanie</a></li>
+				</ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+	<hr />
+        <div class="jumbotron" style="background: url(jumbo3.png) no-repeat; height:300px;">
+		</div>
+
+		<div class="container" style="background: -webkit-linear-gradient(left top, orange , yellow)">
+			<h1>Cennik</h1>
+				<form class="form-horizontal">
+				  <div class="form-group">
+					<label class="col-sm-2 control-label">Z:</label>
+					<div class="col-sm-10">
+					  <input class="form-control" placeholder="Miejscowość startowa">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<label class="col-sm-2 control-label">Do:</label>
+					<div class="col-sm-10">
+					  <input class="form-control" placeholder="Miejscowość docelowa">
+					</div>
+				  </div>
+				  <div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+					  <div class="dropdown">
+						<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Zniżka
+						<span class="caret"></span></button>
+						<ul class="dropdown-menu" role="menu">
+						  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">brak</a></li>
+						  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">student</a></li>
+						  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">uczeń</a></li>
+						</ul>
+					  </div>
+					</div>
+				  </div>
+
+				  <div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+					  <button class="btn btn-default">Wyszukaj</button>
+					</div>
+				  </div>
+				</form>
+		</div>
+		<hr />
+        <footer style="color: white">
+            <p>&copy; 2015 KKBus sp z.o.o.</p>
+			<p>ul. Polna 123</p>
+			<p>30-940 Kraków</p>
+			<p>tel. 666 666 666</p>
+        </footer>
+    </div>
+</body>
+</html>
